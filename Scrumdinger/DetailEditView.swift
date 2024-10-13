@@ -12,6 +12,7 @@ struct DetailEditView: View {
     @State private var scrum = DailyScrum.emptyScrum
     @State private var newAttendeeName = ""
     
+    
     var body: some View {
         Form {
             Section(header: Text("Meeting Info")) {
@@ -25,6 +26,7 @@ struct DetailEditView: View {
                     Text("\(scrum.lengthInMinutes) minutes")
                         .accessibilityHidden(true)
                 }
+                ThemePicker(selection: $scrum.theme)
             }
             Section(header: Text("Attendees")) {
                 ForEach(scrum.attendees){ attendee in
@@ -48,6 +50,7 @@ struct DetailEditView: View {
                     .disabled(newAttendeeName.isEmpty)
                 }
             }
+            
             
         }
     }
