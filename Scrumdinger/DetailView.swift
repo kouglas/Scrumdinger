@@ -7,6 +7,11 @@
 
 import SwiftUI
 
+/*
+ TODO: DetailView to follow a similar pattern, and use a separate structure when presenting the edit sheet.
+ 
+ */
+
 struct DetailView: View {
     @Binding var scrum: DailyScrum
     @State private var editingScrum = DailyScrum.emptyScrum
@@ -14,7 +19,6 @@ struct DetailView: View {
     
     var body: some View {
         List {
-            
             Section(header: Text("Meeting Info")) {
                 NavigationLink(destination: MeetingView(scrum: $scrum, scrumTimer: ScrumTimer())) {
                     Label("Start meeting", systemImage: "timer")
@@ -43,6 +47,18 @@ struct DetailView: View {
                     Label(attendee.name, systemImage: "person")
                 }
             }
+            Section(header: Text("History")) {
+                if scrum.history.isEmpty {
+                    Label("No meetings yet", systemImage: "calendar.badge.exclamationmark")
+                }
+                ForEach(scrum.history) { history in
+                    HStack {
+                        Image(systemName: "calendar")
+                        Text(history.date, style: .date)
+                    }
+                    
+                }
+            }
         }
         .navigationTitle(scrum.title)
         .toolbar {
@@ -65,27 +81,28 @@ struct DetailView: View {
                             Button("Done") {
                                 isPresentingEditView = false
                                 scrum = editingScrum
-
+                                
                             }
                         }
-                }
+                    }
             }
+        }
+        
+    }
+}
+
+
+struct DetailView_Previews: PreviewProvider {
+    static var previews: some View {
+
+        NavigationStack {
+            DetailView(scrum: .constant(DailyScrum.sampleData[0]))
         }
     }
 }
 
-
-//struct DetailView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        
-//        NavigationStack {
-//            DetailView(scrum: .constant(DailyScrum.sampleData[0]))
-//        }
+//#Preview {
+//    NavigationStack {
+//        DetailView(scrum: .constant(DailyScrum.sampleData[0]))
 //    }
 //}
-
-#Preview {
-    NavigationStack {
-        DetailView(scrum: .constant(DailyScrum.sampleData[0]))
-    }
-}

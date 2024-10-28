@@ -31,7 +31,7 @@ struct ScrumsView: View {
             }
         }
         .sheet(isPresented: $isPresentingNewScrumView) {
-             NewScrumSheet(isPresentingNewScrumView: $isPresentingNewScrumView, scrums: $scrums)
+            NewScrumSheet(isPresentingNewScrumView: $isPresentingNewScrumView, scrums: $scrums)
         }
     }
 }

@@ -35,6 +35,6 @@ struct NewScrumSheet: View {
     }
 }
 
-#Preview {
-    NewScrumSheet(isPresentingNewScrumView: .constant(true), scrums: .constant(DailyScrum.sampleData))
-}
+//#Preview {
+//    NewScrumSheet(isPresentingNewScrumView: .constant(true), scrums: .constant(DailyScrum.sampleData))
+//}
