@@ -31,4 +31,16 @@ class ScrumStore: ObservableObject {
         let scrums = try await task.value
         self.scrums = scrums
     }
+    
+    func save(scrums: [DailyScrum]) async throws {
+        let task = Task {
+            let data = try JSONEncoder().encode(scrums)
+            let outfile = try Self.fileURL()
+            try data.write(to: outfile)
+        }
+        /*
+         Waiting for the task ensures that any error thrown inside the task will be reported to the caller. The underscore character indicates that you aren’t interested in the result of task.value.
+         */
+        _ = try await task.value
+    }
 }
