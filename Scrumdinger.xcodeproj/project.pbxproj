@@ -97,7 +97,6 @@
 				4ADCFFF72CD24B360023E5EC /* Views */,
 				4ADCFFE62CC434B30023E5EC /* ScrumTimer.swift */,
 				4ADCFFE42CC3233E0023E5EC /* ScrumProgressViewStyle.swift */,
-				4ADCFFE22CC31D210023E5EC /* MeetingHeaderView.swift */,
 				4ADCFFEF2CCD9E7A0023E5EC /* NewScrumSheet.swift */,
 				4ADCFFC32CADC3420023E5EC /* Assets.xcassets */,
 				4ADCFFC52CADC3420023E5EC /* Preview Content */,
@@ -137,6 +136,7 @@
 		4ADCFFF72CD24B360023E5EC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4ADCFFE22CC31D210023E5EC /* MeetingHeaderView.swift */,
 				4ADCFFDA2CB893010023E5EC /* DetailView.swift */,
 				4ADCFFD22CB03C6C0023E5EC /* CardView.swift */,
 				4ADCFFDC2CB8B3EF0023E5EC /* DetailEditView.swift */,

@@ -50,6 +50,6 @@ struct MeetingHeaderView: View {
     }
 }
 
-#Preview {
-    MeetingHeaderView(secondsElapsed: 60, secondsRemaining: 180, theme: .bubblegum)
-}
+//#Preview {
+//    MeetingHeaderView(secondsElapsed: 60, secondsRemaining: 180, theme: .bubblegum)
+//}
