@@ -91,20 +91,14 @@
 			children = (
 				4ADCFFCD2CB033E20023E5EC /* Models */,
 				4ADCFFBF2CADC3410023E5EC /* ScrumdingerApp.swift */,
-				4ADCFFD22CB03C6C0023E5EC /* CardView.swift */,
-				4ADCFFDC2CB8B3EF0023E5EC /* DetailEditView.swift */,
 				4ADCFFEC2CC451E80023E5EC /* Resources */,
-				4ADCFFDA2CB893010023E5EC /* DetailView.swift */,
 				4ADCFFD42CB071590023E5EC /* TrailingIconLabelStyle.swift */,
 				4ADCFFE02CBBD2F60023E5EC /* ThemePicker.swift */,
+				4ADCFFF72CD24B360023E5EC /* Views */,
 				4ADCFFE62CC434B30023E5EC /* ScrumTimer.swift */,
-				4ADCFFE82CC44B760023E5EC /* MeetingFooterView.swift */,
-				4ADCFFD82CB076720023E5EC /* ScrumsView.swift */,
 				4ADCFFE42CC3233E0023E5EC /* ScrumProgressViewStyle.swift */,
 				4ADCFFE22CC31D210023E5EC /* MeetingHeaderView.swift */,
 				4ADCFFEF2CCD9E7A0023E5EC /* NewScrumSheet.swift */,
-				4ADCFFDE2CBBCF050023E5EC /* ThemeView.swift */,
-				4ADCFFC12CADC3410023E5EC /* MeetingView.swift */,
 				4ADCFFC32CADC3420023E5EC /* Assets.xcassets */,
 				4ADCFFC52CADC3420023E5EC /* Preview Content */,
 			);
@@ -138,6 +132,20 @@
 				4ADCFFED2CC452080023E5EC /* ding.wav */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		4ADCFFF72CD24B360023E5EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4ADCFFDA2CB893010023E5EC /* DetailView.swift */,
+				4ADCFFD22CB03C6C0023E5EC /* CardView.swift */,
+				4ADCFFDC2CB8B3EF0023E5EC /* DetailEditView.swift */,
+				4ADCFFE82CC44B760023E5EC /* MeetingFooterView.swift */,
+				4ADCFFD82CB076720023E5EC /* ScrumsView.swift */,
+				4ADCFFDE2CBBCF050023E5EC /* ThemeView.swift */,
+				4ADCFFC12CADC3410023E5EC /* MeetingView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
