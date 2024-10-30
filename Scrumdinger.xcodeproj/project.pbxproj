@@ -30,6 +30,7 @@
 		4ADCFFF22CD03AF20023E5EC /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADCFFF12CD03AF20023E5EC /* History.swift */; };
 		4ADCFFF42CD13E0B0023E5EC /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADCFFF32CD13E0B0023E5EC /* ScrumStore.swift */; };
 		4ADCFFF62CD249A90023E5EC /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADCFFF52CD249A90023E5EC /* ErrorWrapper.swift */; };
+		4ADCFFF92CD24D070023E5EC /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADCFFF82CD24D070023E5EC /* ErrorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		4ADCFFF12CD03AF20023E5EC /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		4ADCFFF32CD13E0B0023E5EC /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
 		4ADCFFF52CD249A90023E5EC /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
+		4ADCFFF82CD24D070023E5EC /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 				4ADCFFE22CC31D210023E5EC /* MeetingHeaderView.swift */,
 				4ADCFFDA2CB893010023E5EC /* DetailView.swift */,
 				4ADCFFD22CB03C6C0023E5EC /* CardView.swift */,
+				4ADCFFF82CD24D070023E5EC /* ErrorView.swift */,
 				4ADCFFDC2CB8B3EF0023E5EC /* DetailEditView.swift */,
 				4ADCFFE82CC44B760023E5EC /* MeetingFooterView.swift */,
 				4ADCFFD82CB076720023E5EC /* ScrumsView.swift */,
@@ -223,6 +226,7 @@
 				4ADCFFE12CBBD2F60023E5EC /* ThemePicker.swift in Sources */,
 				4ADCFFE52CC3233E0023E5EC /* ScrumProgressViewStyle.swift in Sources */,
 				4ADCFFE92CC44B760023E5EC /* MeetingFooterView.swift in Sources */,
+				4ADCFFF92CD24D070023E5EC /* ErrorView.swift in Sources */,
 				4ADCFFE72CC434B30023E5EC /* ScrumTimer.swift in Sources */,
 				4ADCFFD12CB039EE0023E5EC /* DailyScrum.swift in Sources */,
 				4ADCFFF42CD13E0B0023E5EC /* ScrumStore.swift in Sources */,
