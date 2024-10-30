@@ -29,6 +29,7 @@
 		4ADCFFF02CCD9E7A0023E5EC /* NewScrumSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADCFFEF2CCD9E7A0023E5EC /* NewScrumSheet.swift */; };
 		4ADCFFF22CD03AF20023E5EC /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADCFFF12CD03AF20023E5EC /* History.swift */; };
 		4ADCFFF42CD13E0B0023E5EC /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADCFFF32CD13E0B0023E5EC /* ScrumStore.swift */; };
+		4ADCFFF62CD249A90023E5EC /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADCFFF52CD249A90023E5EC /* ErrorWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		4ADCFFEF2CCD9E7A0023E5EC /* NewScrumSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScrumSheet.swift; sourceTree = "<group>"; };
 		4ADCFFF12CD03AF20023E5EC /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		4ADCFFF32CD13E0B0023E5EC /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
+		4ADCFFF52CD249A90023E5EC /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				4ADCFFD02CB039EE0023E5EC /* DailyScrum.swift */,
 				4ADCFFF12CD03AF20023E5EC /* History.swift */,
 				4ADCFFF32CD13E0B0023E5EC /* ScrumStore.swift */,
+				4ADCFFF52CD249A90023E5EC /* ErrorWrapper.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 				4ADCFFD12CB039EE0023E5EC /* DailyScrum.swift in Sources */,
 				4ADCFFF42CD13E0B0023E5EC /* ScrumStore.swift in Sources */,
 				4ADCFFDB2CB893010023E5EC /* DetailView.swift in Sources */,
+				4ADCFFF62CD249A90023E5EC /* ErrorWrapper.swift in Sources */,
 				4ADCFFE32CC31D210023E5EC /* MeetingHeaderView.swift in Sources */,
 				4ADCFFDD2CB8B3EF0023E5EC /* DetailEditView.swift in Sources */,
 				4ADCFFF02CCD9E7A0023E5EC /* NewScrumSheet.swift in Sources */,
