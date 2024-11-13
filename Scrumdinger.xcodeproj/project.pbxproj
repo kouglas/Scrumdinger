@@ -32,6 +32,7 @@
 		4ADCFFF62CD249A90023E5EC /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADCFFF52CD249A90023E5EC /* ErrorWrapper.swift */; };
 		4ADCFFF92CD24D070023E5EC /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADCFFF82CD24D070023E5EC /* ErrorView.swift */; };
 		4ADCFFFB2CD51CA40023E5EC /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADCFFFA2CD51CA40023E5EC /* MeetingTimerView.swift */; };
+		4AEC84952CE4203400DEEAD1 /* SpeakerArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEC84942CE4203400DEEAD1 /* SpeakerArc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,7 @@
 		4ADCFFF52CD249A90023E5EC /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
 		4ADCFFF82CD24D070023E5EC /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		4ADCFFFA2CD51CA40023E5EC /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
+		4AEC84942CE4203400DEEAD1 /* SpeakerArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerArc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 			children = (
 				4ADCFFE22CC31D210023E5EC /* MeetingHeaderView.swift */,
 				4ADCFFDA2CB893010023E5EC /* DetailView.swift */,
+				4AEC84942CE4203400DEEAD1 /* SpeakerArc.swift */,
 				4ADCFFD22CB03C6C0023E5EC /* CardView.swift */,
 				4ADCFFF82CD24D070023E5EC /* ErrorView.swift */,
 				4ADCFFDC2CB8B3EF0023E5EC /* DetailEditView.swift */,
@@ -229,6 +232,7 @@
 				4ADCFFE12CBBD2F60023E5EC /* ThemePicker.swift in Sources */,
 				4ADCFFE52CC3233E0023E5EC /* ScrumProgressViewStyle.swift in Sources */,
 				4ADCFFE92CC44B760023E5EC /* MeetingFooterView.swift in Sources */,
+				4AEC84952CE4203400DEEAD1 /* SpeakerArc.swift in Sources */,
 				4ADCFFF92CD24D070023E5EC /* ErrorView.swift in Sources */,
 				4ADCFFE72CC434B30023E5EC /* ScrumTimer.swift in Sources */,
 				4ADCFFFB2CD51CA40023E5EC /* MeetingTimerView.swift in Sources */,
