@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4AC860CF2CF2A120000E2F27 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC860CE2CF2A10C000E2F27 /* SpeechRecognizer.swift */; };
+		4AC860D12CF76A3E000E2F27 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC860D02CF76A32000E2F27 /* HistoryView.swift */; };
 		4ADCFFC02CADC3410023E5EC /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADCFFBF2CADC3410023E5EC /* ScrumdingerApp.swift */; };
 		4ADCFFC22CADC3410023E5EC /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADCFFC12CADC3410023E5EC /* MeetingView.swift */; };
 		4ADCFFC42CADC3420023E5EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ADCFFC32CADC3420023E5EC /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		4AC860CE2CF2A10C000E2F27 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		4AC860D02CF76A32000E2F27 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 		4ADCFFBC2CADC3410023E5EC /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ADCFFBF2CADC3410023E5EC /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		4ADCFFC12CADC3410023E5EC /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				4ADCFFF82CD24D070023E5EC /* ErrorView.swift */,
 				4ADCFFDC2CB8B3EF0023E5EC /* DetailEditView.swift */,
 				4ADCFFE82CC44B760023E5EC /* MeetingFooterView.swift */,
+				4AC860D02CF76A32000E2F27 /* HistoryView.swift */,
 				4ADCFFD82CB076720023E5EC /* ScrumsView.swift */,
 				4ADCFFDE2CBBCF050023E5EC /* ThemeView.swift */,
 				4ADCFFC12CADC3410023E5EC /* MeetingView.swift */,
@@ -238,6 +241,7 @@
 				4AEC84952CE4203400DEEAD1 /* SpeakerArc.swift in Sources */,
 				4ADCFFF92CD24D070023E5EC /* ErrorView.swift in Sources */,
 				4ADCFFE72CC434B30023E5EC /* ScrumTimer.swift in Sources */,
+				4AC860D12CF76A3E000E2F27 /* HistoryView.swift in Sources */,
 				4ADCFFFB2CD51CA40023E5EC /* MeetingTimerView.swift in Sources */,
 				4ADCFFD12CB039EE0023E5EC /* DailyScrum.swift in Sources */,
 				4ADCFFF42CD13E0B0023E5EC /* ScrumStore.swift in Sources */,
